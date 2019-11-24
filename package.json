@@ -1,0 +1,18 @@
+{
+  "name": "dictionary",
+  "version": "v1.0.0",
+  "description": "Command Line Dictionary tool",
+  "repository": "https://github.com/vinodKumarPula/dictonaryTool",
+  "author": "Vinod Kumar Pula",
+  "license": "UNLICENSED",
+  "preferGlobal": true,
+  "bin": {
+  	"dict":"./index.js"
+  },
+  "private": true,
+  "dependencies": {
+    "commander": "*",
+    "request": "*",
+    "readline": "*"
+  }
+}
